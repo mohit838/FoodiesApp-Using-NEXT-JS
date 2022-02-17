@@ -1,0 +1,44 @@
+.container{
+    background-color: tomato;
+    height: 100px;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.item{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    /* color: white; */
+}
+
+.item:nth-child(2){
+    flex: 1;
+    /* background-color: #000; */
+}
+
+.ph{
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    height: 50px;
+}
+
+.headertext{
+    margin-left: 20px;
+    color: white;
+}
+
+.text:first-child{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.text:last-child{
+    font-size: 20px;
+    font-weight: bold;
+}
